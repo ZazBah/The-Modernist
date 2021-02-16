@@ -1,0 +1,335 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #990000;
+}
+.navbar-style{
+    background-color: #660000;
+}
+.brand-style{
+    font-family: Lucida Grande;
+    font-weight: bold;
+    font-size: 30px;
+    color: white !important;
+}
+.nav-btn{
+    padding: 6px 15px;
+    color: white;
+    background-color: #00ff99;
+    font-weight: bold;
+    border: 1px solid #00ff99;
+    border-radius: 10px;
+    outline: none;
+}
+.font-color{
+    font-family: monospace;
+    font-size: 15px;
+    color: white;
+}
+
+.carousel-item{
+    height: 36vh;
+    background-color: #660000;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slider-1{
+    background: url("image/image1.jpg") no-repeat center center fixed;
+}
+.slider-2{
+    background: url("image/image2.jpg") no-repeat center center fixed;
+}
+.slider-3{
+    background: url("image/image3.jpg") no-repeat center center fixed;
+}
+
+.img-div{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-color: #262626;
+    opacity: 0;
+}
+
+.image1{
+    height: 280px;
+    width: 280px;
+    border-radius: 280px;
+    margin-top: 10px;
+    margin-left: -2px;
+    opacity: 0;
+}
+
+.slider-header{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: default;
+}
+
+.slider-pera{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: monospace;
+    cursor: default;
+}
+
+.slider-btn{
+    padding: 6px 15px;
+    color: white;
+    background-color: #00ff99;
+    font-weight: bold;
+    border: 1px solid #00ff99;
+    border-radius: 10px;
+    outline: none;
+    transform: translate(52%,0);
+}
+
+.div1-raw{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.div1{
+    background-color: white;
+    width: 90%;
+    height: 320px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.2s;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.div1:hover{
+    background-color: #00ff99;
+}
+.div1-image{
+    height: 120px;
+    width: 120px;
+    margin-left: 60px;
+}
+.div1-heading{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-family: Lucida;
+    padding-top: 20px;
+    transition: 0.2s;
+    cursor: default;
+}
+.div1:hover .div1-heading{
+    color: white;
+}
+.div1-pera{
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    transition: 0.2s;
+    cursor: default;
+}
+.div1:hover .div1-pera{
+    color: white;
+}
+
+.image-div{
+    padding-left: 12%;
+    padding-bottom: 5%;
+}
+.card{
+    margin-top: 10%;
+    position: relative;
+    height: 190px;
+    width: 290px;
+    overflow: hidden;
+    border: 4px solid #fff;
+}
+.card::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 40%;
+    background: rgba(0,0,0,0.6);
+    top: 60%;
+    left: 0;
+    z-index: 1;
+    transform-origin: center top 0;
+    transition: 0.5s;
+}
+.card:hover:before{
+    top: 110%;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    transition: 1s;
+}
+.card:hover img{
+    transform: scale(1.5);
+}
+.card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    color: #fff;
+    z-index: 2;
+    transition: 0.5s;
+}
+.card:hover .card-text{
+    top: 110%;
+    transition-delay: 0.5s;
+}
+
+.footer{
+    background-color: #262626;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.f-h-1{
+    color: #fff;
+    font-family: Lucida;
+    font-size: 22px;
+    padding-bottom: 20px;
+    cursor: default;
+}
+.f-h-2{
+    color: #00ff99;
+    font-family: Lucida;
+    font-size: 18px;
+    cursor: pointer;
+}
+.f-h-p{
+    font-family: lucida;
+    color: #fff;
+    font-size: 15px;
+    cursor: default;
+}
+.f-inputbox-1{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+.f-inputbox-2{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+.f-button{
+    background-color: #00ff99;
+    padding: 5px 15px;
+    border: 2px solid #00ff99;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 768px){
+    .carousel-item{
+        height: 36vh;;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .slider-1{
+        background: none;
+        background-color: #660000;
+    }
+    .slider-2{
+        background: none;
+        background-color: #660000;
+    }
+    .slider-3{
+        background: none;
+        background-color: #660000;
+    }
+    .slider-header{
+        color: white;
+        text-align: left;
+    }
+    .slider-pera{
+        color: white;
+        text-align: left;
+    }
+    .slider-btn{
+        transform: translate(0,0);
+    }
+    .img-div{
+        opacity: 1;
+    }
+    
+    .image1{
+        opacity: 1;
+    }
+    .slide-text{
+        padding-top: 40px;
+    }
+    .div1-raw{
+        padding-left: 0px;
+    }
+    .div1{
+        width: 220px;
+        margin-top: 10px;
+    }
+    .div1-image{
+        margin-left: 0px;
+    }
+
+    .image-div{
+        padding-left: 0;
+    } 
+    .card{
+        height: 190px;
+        width: 220px;
+    }
+    .footer{
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .carousel-item{
+        height: 50vh;;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .slide-text{
+        padding-top: 50px;
+    }
+    .div1-raw{
+        padding-left: 70px;
+    }
+    .div1{
+        width: 220px;
+        margin-top: 0px;
+    }
+    .div1-image{
+        margin-left: 0px;
+    }
+
+    .image-div{
+        padding-left: 5%;
+    }
+    .card{
+        height: 190px;
+        width: 290px;
+    }
+    .footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
